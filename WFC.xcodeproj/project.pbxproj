@@ -94,8 +94,10 @@
 		7D10681E2C88A081009BFE2C /* WFC */ = {
 			isa = PBXGroup;
 			children = (
+				7D10684B2C88A109009BFE2C /* Model */,
+				7D10684A2C88A0FD009BFE2C /* View */,
+				7D1068492C88A0DF009BFE2C /* ViewM  */,
 				7D10681F2C88A081009BFE2C /* WFCApp.swift */,
-				7D1068212C88A081009BFE2C /* ContentView.swift */,
 				7D1068232C88A082009BFE2C /* Assets.xcassets */,
 				7D1068252C88A082009BFE2C /* Preview Content */,
 			);
@@ -125,6 +127,28 @@
 				7D10683C2C88A082009BFE2C /* WFCUITestsLaunchTests.swift */,
 			);
 			path = WFCUITests;
+			sourceTree = "<group>";
+		};
+		7D1068492C88A0DF009BFE2C /* ViewM  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ViewM ";
+			sourceTree = "<group>";
+		};
+		7D10684A2C88A0FD009BFE2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D1068212C88A081009BFE2C /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D10684B2C88A109009BFE2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
