@@ -14,6 +14,7 @@
 		7D1068312C88A082009BFE2C /* WFCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1068302C88A082009BFE2C /* WFCTests.swift */; };
 		7D10683B2C88A082009BFE2C /* WFCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D10683A2C88A082009BFE2C /* WFCUITests.swift */; };
 		7D10683D2C88A082009BFE2C /* WFCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D10683C2C88A082009BFE2C /* WFCUITestsLaunchTests.swift */; };
+		7D10684D2C88A626009BFE2C /* SHV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D10684C2C88A626009BFE2C /* SHV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7D1068362C88A082009BFE2C /* WFCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D10683A2C88A082009BFE2C /* WFCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFCUITests.swift; sourceTree = "<group>"; };
 		7D10683C2C88A082009BFE2C /* WFCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D10684C2C88A626009BFE2C /* SHV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		7D10684A2C88A0FD009BFE2C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7D10684C2C88A626009BFE2C /* SHV.swift */,
 				7D1068212C88A081009BFE2C /* ContentView.swift */,
 			);
 			path = View;
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D10684D2C88A626009BFE2C /* SHV.swift in Sources */,
 				7D1068222C88A081009BFE2C /* ContentView.swift in Sources */,
 				7D1068202C88A081009BFE2C /* WFCApp.swift in Sources */,
 			);
