@@ -24,8 +24,12 @@ struct CWV: View {
                     Text("Conditions")
                 }
             }
+            .padding(.bottom, 10)
             
             HStack {
+                
+                Spacer()
+                
                 VStack {
                     Image(systemName: "wind")
                         .frame(width: 60, height: 60)
@@ -48,6 +52,8 @@ struct CWV: View {
                         .multilineTextAlignment(.center)
                 }
                 
+                Spacer()
+                
                 VStack {
                     Image(systemName: "drop")
                         .frame(width: 60, height: 60)
@@ -55,7 +61,8 @@ struct CWV: View {
                         .foregroundColor(.black)
                         .background(Color.white)
                         .cornerRadius(10)
-                    Text("Humidity")
+                        .padding(.trailing, 35)
+                    Text("Humidity: 90")
                         .multilineTextAlignment(.center)
                 }
             }
