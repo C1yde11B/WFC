@@ -67,6 +67,7 @@ struct CWV: View {
                 }
             }
         }
+        
         .foregroundColor(.white)
         .padding()
         .background(RoundedRectangle(cornerRadius: 20).fill(LinearGradient(gradient: Gradient(colors: [Color.blue.opacity(0.5), Color.blue]), startPoint: .top, endPoint: .bottom)).opacity(0.3))

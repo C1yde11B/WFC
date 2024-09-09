@@ -22,5 +22,5 @@ struct CityNameView: View {
     }
 }
 #Preview {
-    CityNameView(city: "Tulsa", currentDate: "September 4, 2024")
+    CityNameView(city: "Tulsa", currentDate: "September 9, 2024")
 }

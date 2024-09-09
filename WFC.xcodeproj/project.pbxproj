@@ -17,6 +17,7 @@
 		7D10684D2C88A626009BFE2C /* SHV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D10684C2C88A626009BFE2C /* SHV.swift */; };
 		7D10684F2C88B0CA009BFE2C /* CityNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D10684E2C88B0CA009BFE2C /* CityNameView.swift */; };
 		7D1068512C88B28F009BFE2C /* CWV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1068502C88B28F009BFE2C /* CWV.swift */; };
+		7D688B4C2C8A029B009820EF /* ThreeDayForC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D688B4B2C8A029B009820EF /* ThreeDayForC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		7D10684C2C88A626009BFE2C /* SHV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHV.swift; sourceTree = "<group>"; };
 		7D10684E2C88B0CA009BFE2C /* CityNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNameView.swift; sourceTree = "<group>"; };
 		7D1068502C88B28F009BFE2C /* CWV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWV.swift; sourceTree = "<group>"; };
+		7D688B4B2C8A029B009820EF /* ThreeDayForC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDayForC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				7D1068212C88A081009BFE2C /* ContentView.swift */,
 				7D10684E2C88B0CA009BFE2C /* CityNameView.swift */,
 				7D1068502C88B28F009BFE2C /* CWV.swift */,
+				7D688B4B2C8A029B009820EF /* ThreeDayForC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D10684D2C88A626009BFE2C /* SHV.swift in Sources */,
+				7D688B4C2C8A029B009820EF /* ThreeDayForC.swift in Sources */,
 				7D1068222C88A081009BFE2C /* ContentView.swift in Sources */,
 				7D1068512C88B28F009BFE2C /* CWV.swift in Sources */,
 				7D10684F2C88B0CA009BFE2C /* CityNameView.swift in Sources */,
