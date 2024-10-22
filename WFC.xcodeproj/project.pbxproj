@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D06FD5A2CC7E9D500EA2B78 /* weatherForCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D06FD592CC7E9D500EA2B78 /* weatherForCast.swift */; };
+		7D06FD5C2CC7EBA700EA2B78 /* WeatherAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D06FD5B2CC7EBA700EA2B78 /* WeatherAnimationViewModel.swift */; };
 		7D1068202C88A081009BFE2C /* WFCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D10681F2C88A081009BFE2C /* WFCApp.swift */; };
 		7D1068222C88A081009BFE2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1068212C88A081009BFE2C /* ContentView.swift */; };
 		7D1068242C88A082009BFE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1068232C88A082009BFE2C /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D06FD592CC7E9D500EA2B78 /* weatherForCast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherForCast.swift; sourceTree = "<group>"; };
+		7D06FD5B2CC7EBA700EA2B78 /* WeatherAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAnimationViewModel.swift; sourceTree = "<group>"; };
 		7D10681C2C88A081009BFE2C /* WFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D10681F2C88A081009BFE2C /* WFCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFCApp.swift; sourceTree = "<group>"; };
 		7D1068212C88A081009BFE2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -140,6 +144,8 @@
 		7D1068492C88A0DF009BFE2C /* ViewM  */ = {
 			isa = PBXGroup;
 			children = (
+				7D06FD592CC7E9D500EA2B78 /* weatherForCast.swift */,
+				7D06FD5B2CC7EBA700EA2B78 /* WeatherAnimationViewModel.swift */,
 			);
 			path = "ViewM ";
 			sourceTree = "<group>";
@@ -297,7 +303,9 @@
 				7D688B4C2C8A029B009820EF /* ThreeDayForC.swift in Sources */,
 				7D1068222C88A081009BFE2C /* ContentView.swift in Sources */,
 				7D1068512C88B28F009BFE2C /* CWV.swift in Sources */,
+				7D06FD5A2CC7E9D500EA2B78 /* weatherForCast.swift in Sources */,
 				7D10684F2C88B0CA009BFE2C /* CityNameView.swift in Sources */,
+				7D06FD5C2CC7EBA700EA2B78 /* WeatherAnimationViewModel.swift in Sources */,
 				7D1068202C88A081009BFE2C /* WFCApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
